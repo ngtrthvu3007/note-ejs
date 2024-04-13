@@ -2,7 +2,9 @@
   --background-color: #ffc700;
   --bs-primary-rgb: #193998;
 }
-
+html {
+  height: 100%;
+}
 body {
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
@@ -10,8 +12,14 @@ body {
   font-weight: 300;
   font-size: 1.2rem;
   background-image: url(../img/noise-bg.png);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+.footer {
+  margin-top: auto;
+}
 h1,
 h2,
 h3,
