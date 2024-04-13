@@ -2,17 +2,18 @@
   --background-color: #ffc700;
   --bs-primary-rgb: #193998;
 }
-html {
-  height: 100%;
-}
+html,
 body {
+  margin: 0px;
+  padding: 0px;
   font-family: "Poppins", sans-serif;
   background-color: #ffffff;
   color: var(--bs-primary-rgb);
   font-weight: 300;
   font-size: 1.2rem;
   background-image: url(../img/noise-bg.png);
-  min-height: 100vh;
+  min-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
